@@ -26,9 +26,9 @@ with open("model/model1.pkl", "rb") as f:
 import os
 
 # Hacking my own protocol
-os.chmod('model/saved_bins_bmi.pkl', 0o777)
+os.chmod('saved_bins_bmi.pkl', 0o777)
 
-with open('model/saved_bins_bmi.pkl', 'rb') as handle:
+with open('saved_bins_bmi.pkl', 'rb') as handle:
     saved_bins_bmi = pickle.load(handle)
 
 
