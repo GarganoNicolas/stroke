@@ -19,7 +19,7 @@ PARAMS_NAME = [
 
            
 # Load model
-with open("model/model1.pkl", "rb") as f:
+with open("model1.pkl", "rb") as f:
     model = pickle.load(f)
 
 
